@@ -46,3 +46,7 @@ Below is a list of commands to manage your local VM:
 - ./vm run: Pass ad-hoc commands to be executed in the VM (tunneled via SSH)
 
     `$ ./vm run ls -l /etc`
+
+### Special Thanks ###
+
+Special thanks to Liz Rice who put together much of the Vagrant automation in her blog post: https://medium.com/@lizrice/kubernetes-in-vagrant-with-kubeadm-21979ded6c63
