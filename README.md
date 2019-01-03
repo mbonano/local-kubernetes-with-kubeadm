@@ -16,6 +16,26 @@ It is highly recommended that engineers become acquainted with various supportin
 - Read more about [VirtualBox](https://www.virtualbox.org/manual/UserManual.html) *(https://www.virtualbox.org/manual/UserManual.html)*
 - Read more about [Kubernetes](https://kubernetes.io/) *(https://kubernetes.io/)*
 
+### Prerequisites ###
+
+The following can be executed in order to install the software required to install and run Kubernetes. The following assumes that [homebrew](https://brew.sh/) is installed:
+
+Vagrant uses Virtualbox to manage the virtual dependencies. You can [download virtualbox directly](https://www.virtualbox.org/wiki/Downloads) and install or use homebrew as follows:
+
+    $ brew cask install virtualbox
+
+Now [download and install Vagrant](http://www.vagrantup.com/downloads.html) or use homebrew as follows:
+
+    $ brew cask install vagrant
+
+[Vagrant-Manager](http://vagrantmanager.com/) helps you manage all your virtual machines in one place directly from the menubar.
+
+    $ brew cask install vagrant-manager
+
+Install kubectl
+
+    $ brew install kubernetes-cli
+
 ### Spin up your VM ###
 
 Execute the following command locally to provision / configure your VM and generate the 'admin.conf' file, used to interact with
